@@ -10,7 +10,7 @@ export default {
     async logout () {
       await this.$fb.auth().signOut().then(() => {
         this.$emit('logout')
-        this.$router.push('/')
+        this.$router.push('/todos')
       })
     }
   }

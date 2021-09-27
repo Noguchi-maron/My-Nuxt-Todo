@@ -1,0 +1,44 @@
+html body {
+  color: #333;
+}
+
+.container {
+  width: 1000px;
+  margin: 70px auto 0;
+}
+
+div.header {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+div.v-radio {
+  display: inline-block;
+}
+
+div.v-radio.v-item--active label {
+  color: #333;
+}
+
+div.wrap {
+  height: 100%;
+  width: 100%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a.router-link {
+  color: #333;
+}
+
+span.span-btn {
+  cursor: pointer;
+}
+
+span.span-btn:hover {
+  color: #1B95E0;
+}
+
+
